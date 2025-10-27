@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-State Agent Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🗺️ Multi-State Agent Chatbot</h1>
+            <p>Explore the rich cultural heritage of Indian states!</p>
+        </header>
+        
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        <p>👋 Welcome to the Multi-State Agent chatbot! I'm here to help you explore the incredible diversity and rich cultural heritage of Indian states.</p>
+                        
+                        <p>🤖 <strong>Now powered by Gemini AI</strong> for comprehensive, real-time information about any Indian state!</p>
+                        
+                        <p><strong>Here's how it works:</strong></p>
+                        <ol>
+                            <li>Tell me the name of any Indian state you're curious about</li>
+                            <li>Choose one of these options by number (1-8):</li>
+                        </ol>
+                        
+                        <div class="options-grid">
+                            <div class="option">1️⃣ Interesting facts</div>
+                            <div class="option">2️⃣ Festivals celebrated</div>
+                            <div class="option">3️⃣ Traditional art forms</div>
+                            <div class="option">4️⃣ Popular dance forms</div>
+                            <div class="option">5️⃣ Cuisine and famous dishes</div>
+                            <div class="option">6️⃣ Traditional attire</div>
+                            <div class="option">7️⃣ Unique things it's famous for</div>
+                            <div class="option">8️⃣ Languages spoken</div>
+                        </div>
+                        
+                        <p><strong>Please enter your state name and option number to explore! 🌟</strong></p>
+                        <p><em>Examples:</em></p>
+                        <ul style="text-align: left; margin: 10px 0;">
+                            <li><strong>"Kerala, 5"</strong> - Explore Kerala's cuisine</li>
+                            <li><strong>"Rajasthan, 2"</strong> - Discover Rajasthan's festivals</li>
+                            <li><strong>"Diwali festival"</strong> - Learn about specific festivals</li>
+                            <li><strong>"Onam festival"</strong> - Regional festival details</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="input-container">
+                <input type="text" id="userInput" placeholder="Enter state name and option (e.g., Kerala, 5)" />
+                <button id="sendButton">Send</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
