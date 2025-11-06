@@ -168,10 +168,6 @@ const statesData = {
             "English - In urban areas"
         ]
     }
-};
-
-// Add more states data
-Object.assign(statesData, {
     "tamil nadu": {
         name: "Tamil Nadu",
         facts: [
@@ -290,7 +286,6 @@ Object.assign(statesData, {
             "Gurmukhi - Script for Punjabi"
         ]
     }
-    Object.assign(statesData, {
     "tamil nadu": {
         name: "Tamil Nadu",
         facts: [
