@@ -290,6 +290,591 @@ Object.assign(statesData, {
             "Gurmukhi - Script for Punjabi"
         ]
     }
+    Object.assign(statesData, {
+    "tamil nadu": {
+        name: "Tamil Nadu",
+        facts: [
+            "Southernmost state of India",
+            "Ancient Dravidian culture and heritage",
+            "Major hub for automobile industry",
+            "Home to classical Tamil literature",
+            "Has the longest coastline in India"
+        ],
+        festivals: [
+            "Pongal - Harvest festival",
+            "Diwali - Festival of lights",
+            "Navaratri - Nine nights of goddess worship",
+            "Karthigai Deepam - Festival of lamps",
+            "Tamil New Year - Celebrated in April"
+        ],
+        artForms: [
+            "Tanjore Paintings - Gold foil paintings",
+            "Kanchipuram Silk - Traditional silk weaving",
+            "Stone carving - Temple sculptures",
+            "Bronze casting - Chola period art",
+            "Kolam - Rangoli art form"
+        ],
+        dances: [
+            "Bharatanatyam - Classical dance form",
+            "Karagattam - Folk dance with water pots",
+            "Kummi - Folk dance performed by women",
+            "Mayilattam - Peacock dance",
+            "Kavadi Attam - Devotional dance"
+        ],
+        cuisine: [
+            "Idli Sambar - Steamed rice cakes with lentil curry",
+            "Dosa - Crispy rice crepe",
+            "Chettinad Chicken - Spicy chicken curry",
+            "Rasam - Tangy soup",
+            "Filter Coffee - Traditional South Indian coffee"
+        ],
+        attire: [
+            "Veshti - Traditional dhoti for men",
+            "Saree - Kanchipuram silk sarees for women",
+            "Angavastram - Upper cloth for men",
+            "Half saree - Traditional wear for young women",
+            "Temple jewelry and flowers in hair"
+        ],
+        famous: [
+            "Ancient temples like Meenakshi and Brihadeeswarar",
+            "Classical music and dance traditions",
+            "Marina Beach - Second longest beach in world",
+            "Hill stations like Ooty and Kodaikanal",
+            "Automobile industry in Chennai"
+        ],
+        languages: [
+            "Tamil - Official language",
+            "English - Widely used",
+            "Telugu - In some northern districts",
+            "Malayalam - In western border areas",
+            "Hindi - Understood in urban areas"
+        ]
+    },
+    "kerala": {
+        name: "Kerala",
+        facts: [
+            "God's Own Country",
+            "100% literacy rate",
+            "Highest life expectancy in India",
+            "Backwaters and houseboats",
+            "Spice garden of India"
+        ],
+        festivals: [
+            "Onam - Harvest festival with flower carpets",
+            "Vishu - Malayalam New Year",
+            "Thrissur Pooram - Temple elephant festival",
+            "Theyyam - Ritual dance of gods",
+            "Christmas - Celebrated grandly"
+        ],
+        artForms: [
+            "Kathakali - Classical dance-drama",
+            "Mohiniyattam - Graceful female dance",
+            "Mural paintings - Temple wall art",
+            "Kalaripayattu - Ancient martial art",
+            "Panchavadyam - Five-instrument orchestra"
+        ],
+        dances: [
+            "Kathakali - Painted faces and elaborate costumes",
+            "Mohiniyattam - Dance of the enchantress",
+            "Thiruvathira - Women’s circle dance",
+            "Oppana - Muslim wedding dance",
+            "Duffmuttu - Arab-influenced drum dance"
+        ],
+        cuisine: [
+            "Sadya - Banana leaf feast",
+            "Appam with Stew - Lacy pancake",
+            "Kerala Fish Curry - Coconut milk based",
+            "Puttu Kadala - Steamed rice with black chickpeas",
+            "Karimeen Fry - Pearl spot fish"
+        ],
+        attire: [
+            "Mundu - White cotton dhoti for men",
+            "Settu Mundu - Two-piece saree for women",
+            "Kasavu Saree - Gold-bordered white saree",
+            "Gold jewelry - Heavy traditional ornaments",
+            "Jasmine flowers in hair"
+        ],
+        famous: [
+            "Alleppey Backwaters",
+            "Munnar Tea Plantations",
+            "Athirappilly Waterfalls",
+            "Kochi Port - Queen of Arabian Sea",
+            "Ayurveda wellness tourism"
+        ],
+        languages: [
+            "Malayalam - Official language",
+            "English - Widely spoken",
+            "Tamil - In border areas",
+            "Kannada - In northern districts",
+            "Arabic - Among Muslim communities"
+        ]
+    },
+    "karnataka": {
+        name: "Karnataka",
+        facts: [
+            "Silicon Valley of India",
+            "Home to ancient Vijayanagara Empire",
+            "Highest number of engineering colleges",
+            "Origin of river Cauvery",
+            "Coffee production hub"
+        ],
+        festivals: [
+            "Ugadi - Kannada New Year",
+            "Dasara - Royal festival in Mysore",
+            "Ganesha Chaturthi - 11-day celebration",
+            "Karaga - Ancient warrior festival",
+            "Makar Sankranti - Kite festival"
+        ],
+        artForms: [
+            "Yakshagana - Dance-drama with masks",
+            "Mysore Paintings - Gold leaf art",
+            "Sandalwood carving",
+            "Bidriware - Metal inlay craft",
+            "Channapatna Toys - Wooden lacquer toys"
+        ],
+        dances: [
+            "Yakshagana - Epic storytelling dance",
+            "Dollu Kunitha - Drum dance",
+            "Kamsale - Brass plate dance",
+            "Veeragase - Vigorous warrior dance",
+            "Hulivesha - Tiger dance"
+        ],
+        cuisine: [
+            "Bisi Bele Bath - Spicy rice lentil dish",
+            "Mysore Pak - Ghee sweet",
+            "Ragi Mudde - Finger millet balls",
+            "Dosa - With coconut chutney",
+            "Filter Kaapi - Strong decoction coffee"
+        ],
+        attire: [
+            "Dhoti Panche - Traditional men’s wear",
+            "Ilkal Saree - Handwoven cotton-silk",
+            "Mysore Silk Saree",
+            "Gold jewelry - Intricate designs",
+            "Pheta - Turban for men"
+        ],
+        famous: [
+            "Hampi - UNESCO ruins",
+            "Mysore Palace",
+            "Jog Falls - Second highest plunge waterfall",
+            "Coorg Coffee Plantations",
+            "Bengaluru IT Hub"
+        ],
+        languages: [
+            "Kannada - Official language",
+            "English - IT and urban areas",
+            "Tulu - Coastal region",
+            "Konkani - Northern coast",
+            "Kodava - Coorg region"
+        ]
+    },
+    "andhra pradesh": {
+        name: "Andhra Pradesh",
+        facts: [
+            "Rice bowl of India",
+            "Longest coastline after Gujarat",
+            "Home to Tirumala Venkateswara Temple",
+            "Kohinoor diamond originated here",
+            "Largest film industry by volume"
+        ],
+        festivals: [
+            "Sankranti - Kite and rangoli festival",
+            "Ugadi - Telugu New Year",
+            "Brahmotsavam - 9-day temple festival",
+            "Dasara - In Vijayawada",
+            "Deepam - Karthika festival"
+        ],
+        artForms: [
+            "Kalamkari - Hand-painted fabric art",
+            "Kondapalli Toys - Wooden figurines",
+            "Etikoppaka Toys - Lacquer wood",
+            "Cherial Scroll Painting",
+            "Nirmal Paintings - Mughal style"
+        ],
+        dances: [
+            "Kuchipudi - Classical dance drama",
+            "Andhra Natyam - Temple dance",
+            "Veera Natyam - Warrior dance",
+            "Lambadi - Tribal gypsy dance",
+            "Tappeta Gullu - Drum dance"
+        ],
+        cuisine: [
+            "Pesarattu - Green gram dosa",
+            "Pulihora - Tamarind rice",
+            "Gongura Pachadi - Sorrel leaves chutney",
+            "Royyala Iguru - Prawn curry",
+            "Pootarekulu - Paper-thin sweet"
+        ],
+        attire: [
+            "Dhoti - White cotton for men",
+            "Gadwal Saree - Cotton-silk blend",
+            "Pochampally Ikat Saree",
+            "Gold jewelry - Heavy temple style",
+            "Flowers in hair"
+        ],
+        famous: [
+            "Tirupati Balaji Temple",
+            "Araku Valley",
+            "Borra Caves",
+            "Amaravati Stupa",
+            "Visakhapatnam Port"
+        ],
+        languages: [
+            "Telugu - Official language",
+            "Urdu - In Hyderabad region",
+            "English - Urban and education",
+            "Lambadi - Tribal communities",
+            "Tamil - Southern borders"
+        ]
+    },
+    "telangana": {
+        name: "Telangana",
+        facts: [
+            "Youngest state (formed 2014)",
+            "Home to Golconda Fort and diamonds",
+            "IT hub after Bangalore",
+            "Charminar - Iconic monument",
+            "Bathukamma - State floral festival"
+        ],
+        festivals: [
+            "Bathukamma - 9-day flower festival",
+            "Bonalu - Goddess festival",
+            "Sammakka Saralamma Jatara - Tribal fair",
+            "Ugadi - Telugu New Year",
+            "Ramzan - Grand celebrations"
+        ],
+        artForms: [
+            "Cheriyal Scrolls - Narrative paintings",
+            "Bidri Craft - Silver inlay",
+            "Pembarthi Metal Craft",
+            "Nirmal Furniture",
+            "Warangal Carpets"
+        ],
+        dances: [
+            "Perini Shivatandavam - Warrior dance",
+            "Gussadi - Gond tribal dance",
+            "Lambadi - Colorful tribal dance",
+            "Dappu - Drum dance",
+            "Bonalu Procession dance"
+        ],
+        cuisine: [
+            "Hyderabadi Biryani - Royal rice dish",
+            "Haleem - Slow-cooked meat porridge",
+            "Mirchi ka Salan - Chilli curry",
+            "Qubani ka Meetha - Apricot dessert",
+            "Osmania Biscuits"
+        ],
+        attire: [
+            "Sherwani - Men’s formal wear",
+            "Kanchipuram Saree - Wedding favorite",
+            "Khara Dupatta - Long scarf",
+            "Pearl jewelry - Hyderabadi style",
+            "Attar perfume"
+        ],
+        famous: [
+            "Charminar and Mecca Masjid",
+            "Ramoji Film City - World’s largest",
+            "Hussain Sagar Lake",
+            "Warangal Fort",
+            "HITEC City"
+        ],
+        languages: [
+            "Telugu - Official language",
+            "Urdu - Second official",
+            "English - IT and education",
+            "Lambadi - Tribal areas",
+            "Marathi - Border regions"
+        ]
+    },
+    "maharashtra": {
+        name: "Maharashtra",
+        facts: [
+            "Financial capital of India",
+            "Home to Bollywood",
+            "Largest producer of sugarcane",
+            "Ajanta-Ellora caves - UNESCO sites",
+            "Highest number of millionaires"
+        ],
+        festivals: [
+            "Ganesh Chaturthi - 10-day elephant god festival",
+            "Gudi Padwa - Marathi New Year",
+            "Dahi Handi - Human pyramid festival",
+            "Pola - Farmer’s bull festival",
+            "Makar Sankranti - Kite festival"
+        ],
+        artForms: [
+            "Warli Painting - Tribal white art",
+            "Lavani - Folk theater",
+            "Tamasha - Folk drama",
+            "Paithani Weaving - Gold silk saree",
+            "Kolhapur Leather - Chappals"
+        ],
+        dances: [
+            "Lavani - Sensuous folk dance",
+            "Dhangari Gaja - Shepherd dance",
+            "Powada - Ballad dance",
+            "Koli - Fisherfolk dance",
+            "Tamasha - Dramatic folk"
+        ],
+        cuisine: [
+            "Vada Pav - Mumbai street burger",
+            "Puran Poli - Sweet flatbread",
+            "Misal Pav - Spicy curry with bread",
+            "Pav Bhaji - Vegetable mash",
+            "Modak - Ganesha’s sweet"
+        ],
+        attire: [
+            "Nauvari Saree - 9-yard drape",
+            "Dhoti Kurta - Men’s traditional",
+            "Topi - Gandhi cap",
+            "Kolhapuri Chappal - Leather sandals",
+            "Nath - Nose ring"
+        ],
+        famous: [
+            "Gateway of India",
+            "Elephanta Caves",
+            "Ajanta-Ellora",
+            "Lonavala Hill Station",
+            "Marine Drive - Queen’s necklace"
+        ],
+        languages: [
+            "Marathi - Official language",
+            "Hindi - Widely spoken",
+            "English - Business language",
+            "Gujarati - In Mumbai",
+            "Konkani - Coastal areas"
+        ]
+    },
+    "gujarat": {
+        name: "Gujarat",
+        facts: [
+            "Longest coastline in India",
+            "Birthplace of Mahatma Gandhi",
+            "Only habitat of Asiatic lions",
+            "World’s largest salt desert - Rann of Kutch",
+            "100% solar-powered villages"
+        ],
+        festivals: [
+            "Navratri - 9-night Garba dance",
+            "Diwali - Festival of lights",
+            "Uttarayan - International Kite Festival",
+            "Rann Utsav - Desert carnival",
+            "Modhera Dance Festival"
+        ],
+        artForms: [
+            "Patola Silk - Double ikat weaving",
+            "Bandhani - Tie-dye textile",
+            "Kutch Embroidery - Mirror work",
+            "Pithora Painting - Tribal ritual art",
+            "Roghan Art - Cloth painting"
+        ],
+        dances: [
+            "Garba - Clapping circle dance",
+            "Dandiya - Stick dance",
+            "Tippani - Folk with iron rods",
+            "Hudo - Sheep dance",
+            "Bhavai - Theater dance"
+        ],
+        cuisine: [
+            "Dhokla - Steamed gram flour cake",
+            "Thepla - Spiced flatbread",
+            "Undhiyu - Winter vegetable curry",
+            "Fafda Jalebi - Crunchy-sweet combo",
+            "Khandvi - Gram flour rolls"
+        ],
+        attire: [
+            "Chaniya Choli - Embroidered skirt blouse",
+            "Kediyu - Men’s flared jacket",
+            "Bandhani Dupatta",
+            "Mirror-work jewelry",
+            "Mojari - Embroidered shoes"
+        ],
+        famous: [
+            "Gir National Park - Asiatic lions",
+            "Statue of Unity - World’s tallest",
+            "Somnath Temple",
+            "Saputara Hill Station",
+            "Great Rann of Kutch"
+        ],
+        languages: [
+            "Gujarati - Official language",
+            "Hindi - Widely understood",
+            "English - Business",
+            "Kutchi - Kutch region",
+            "Sindhi - In border areas"
+        ]
+    },
+    "rajasthan": {
+        name: "Rajasthan",
+        facts: [
+            "Land of Kings",
+            "Largest state by area",
+            "Thar Desert - Great Indian Desert",
+            "Only desert national park in India",
+            "Palace on wheels - Luxury train"
+        ],
+        festivals: [
+            "Pushkar Camel Fair",
+            "Teej - Monsoon swing festival",
+            "Desert Festival - Jaisalmer",
+            "Gangaur - Married women’s festival",
+            "Holi - In Barsana style"
+        ],
+        artForms: [
+            "Miniature Painting - Mughal-Rajput style",
+            "Blue Pottery - Jaipur craft",
+            "Bandhej - Tie-dye",
+            "Meenakari - Enamel jewelry",
+            "Thekri - Glass mosaic"
+        ],
+        dances: [
+            "Ghoomar - Twirling women’s dance",
+            "Kalbelia - Snake charmer dance",
+            "Bhavai - Pot balancing",
+            "Chari - Fire pot dance",
+            "Terah Taali - 13 cymbals"
+        ],
+        cuisine: [
+            "Dal Baati Churma - Lentil, bread, sweet",
+            "Gatte ki Sabzi - Gram flour dumplings",
+            "Laal Maas - Red mutton curry",
+            "Ker Sangri - Desert beans",
+            "Mawa Kachori - Sweet"
+        ],
+        attire: [
+            "Ghagra Choli - Flared skirt blouse",
+            "Safas - Colorful turbans for men",
+            "Borla - Forehead jewelry",
+            "Mojari - Curled toe shoes",
+            "Kundan jewelry"
+        ],
+        famous: [
+            "Jaipur - Pink City",
+            "Udaipur - City of Lakes",
+            "Jaisalmer - Golden Fort",
+            "Mehrangarh Fort",
+            "Ranthambore Tiger Reserve"
+        ],
+        languages: [
+            "Hindi - Official",
+            "Rajasthani - Local dialect",
+            "Marwari - Business language",
+            "English - Tourism",
+            "Sindhi - Border areas"
+        ]
+    },
+    "uttar pradesh": {
+        name: "Uttar Pradesh",
+        facts: [
+            "Most populous state",
+            "Taj Mahal - World wonder",
+            "Ganga-Yamuna-Doab - Fertile plain",
+            "Birthplace of Lord Rama",
+            "Largest producer of wheat"
+        ],
+        festivals: [
+            "Kumbh Mela - Largest religious gathering",
+            "Ram Navami - Ayodhya celebrations",
+            "Diwali - In Varanasi",
+            "Holi - Barsana Lathmar",
+            "Taj Mahotsav - Cultural fest"
+        ],
+        artForms: [
+            "Chikankari - Lucknow embroidery",
+            "Zardozi - Gold thread work",
+            "Banarasi Silk - Brocade weaving",
+            "Perfume - Kannauj attar",
+            "Brassware - Moradabad"
+        ],
+        dances: [
+            "Kathak - Classical storytelling dance",
+            "Raslila - Krishna dance drama",
+            "Charkula - Veiled lamp dance",
+            "Nautanki - Folk theater",
+            "Mayur - Peacock dance"
+        ],
+        cuisine: [
+            "Aloo Tikki - Potato patties",
+            "Kebabs - Galouti and Kakori",
+            "Biryani - Lucknowi dum",
+            "Peda - Mathura sweet",
+            "Chaat - Street snack"
+        ],
+        attire: [
+            "Kurta Pajama - Men’s wear",
+            "Anarkali Suit - Flared dress",
+            "Chikankari Saree",
+            "Mojari - Embroidered shoes",
+            "Topi - Prayer cap"
+        ],
+        famous: [
+            "Taj Mahal - Agra",
+            "Varanasi Ghats",
+            "Ayodhya Ram Temple",
+            "Lucknow Imambara",
+            "Fatehpur Sikri"
+        ],
+        languages: [
+            "Hindi - Official",
+            "Urdu - Second official",
+            "Bhojpuri - Eastern UP",
+            "Awadhi - Lucknow region",
+            "English - Urban"
+        ]
+    },
+    "bihar": {
+        name: "Bihar",
+        facts: [
+            "Birthplace of Buddhism",
+            "Ancient Nalanda University",
+            "Lowest per-capita income",
+            "Origin of river Ganga",
+            "Chhath Puja - Sun worship"
+        ],
+        festivals: [
+            "Chhath Puja - 4-day sun festival",
+            "Sonepur Cattle Fair",
+            "Buddha Purnima - Bodh Gaya",
+            "Sama Chakeva - Folk festival",
+            "Teej - Women’s festival"
+        ],
+        artForms: [
+            "Madhubani Painting - Mithila art",
+            "Sujani Embroidery",
+            "Tikuli - Bindis art",
+            "Manjusha - Snake paintings",
+            "Bamboo craft"
+        ],
+        dances: [
+            "Jat-Jatin - Harvest dance",
+            "Bidesia - Migration folk",
+            "Jijhiya - Women’s ritual dance",
+            "Fagua - Holi dance",
+            "Domkach - Wedding dance"
+        ],
+        cuisine: [
+            "Litti Chokha - Roasted wheat balls",
+            "Sattu - Roasted gram drink",
+            "Thekua - Sweet biscuit",
+            "Khaja - Layered sweet",
+            "Malpua - Pancake sweet"
+        ],
+        attire: [
+            "Dhoti Kurta - Men’s wear",
+            "Saree - Cotton daily wear",
+            "Gamcha - Cotton towel scarf",
+            "Pagri - Turban",
+            "Bead jewelry"
+        ],
+        famous: [
+            "Bodh Gaya - Mahabodhi Temple",
+            "Nalanda Ruins",
+            "Patna Sahib Gurudwara",
+            "Vikramshila University",
+            "Rajgir Hot Springs"
+        ],
+        languages: [
+            "Hindi - Offici
 });
 
 class MultiStateAgent {
